@@ -1,0 +1,20 @@
+2025-02-12 15:20:39 [2@e4ef471c4a14]
+0 seconde for "Installation of plugin FusionInventory"
+2025-02-12 15:20:39 [2@e4ef471c4a14]
+0 seconde for "Clean data from old installation of the plugin"
+2025-02-12 15:20:39 [2@e4ef471c4a14]
+0 seconde for "Clean rules from old installation of the plugin"
+2025-02-12 15:20:43 [2@e4ef471c4a14]
+4 secondes for "Creation tables in database"
+2025-02-12 15:20:43 [2@e4ef471c4a14]
+0 seconde for "Creation of folders"
+2025-02-12 15:20:45 [2@e4ef471c4a14]
+2 secondes for "Initialize profiles"
+2025-02-12 15:20:45 [2@e4ef471c4a14]
+0 seconde for "Initialize configuration"
+2025-02-12 15:20:45 [2@e4ef471c4a14]
+0 seconde for "Initialize agent TASKS"
+2025-02-12 15:20:45 [2@e4ef471c4a14]
+0 seconde for "Initialize cron task"
+2025-02-12 15:20:49 [2@e4ef471c4a14]
+4 secondes for "Create rules"

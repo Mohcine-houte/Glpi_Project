@@ -68,3 +68,7 @@
 [2025-02-11 15:27:08] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/src/Html.php line 6946
 Compile css/palettes/auror.scss  {"user":"@e4ef471c4a14"} 
 [2025-02-11 15:27:15] glpiphplog.WARNING: Test logger  
+[2025-02-12 15:08:01] glpiphplog.ALERT:   *** PHP Compile Error (64): Declaration of PluginFusioninventoryInventoryRuleEntity::checkCriteria(&$criteria, &$input) must be compatible with Rule::checkCriteria($criteria, &$input) in /var/www/html/plugins/fusioninventory/inc/inventoryruleentity.class.php at line 307  
+[2025-02-12 15:08:22] glpiphplog.ALERT:   *** PHP Compile Error (64): Declaration of PluginFusioninventoryInventoryRuleEntity::checkCriteria(&$criteria, &$input) must be compatible with Rule::checkCriteria($criteria, &$input) in /var/www/html/plugins/fusioninventory/inc/inventoryruleentity.class.php at line 307  
+[2025-02-12 15:16:27] glpiphplog.ALERT:   *** PHP Compile Error (64): Declaration of PluginFusioninventoryInventoryRuleLocation::checkCriteria(&$criteria, &$input) must be compatible with Rule::checkCriteria($criteria, &$input) in /var/www/html/plugins/fusioninventory/inc/inventoryrulelocation.class.php at line 323  
+[2025-02-12 15:17:28] glpiphplog.ALERT:   *** PHP Compile Error (64): Declaration of PluginFusioninventoryInventoryRuleRemotework::checkCriteria(&$criteria, &$input) must be compatible with Rule::checkCriteria($criteria, &$input) in /var/www/html/plugins/fusioninventory/inc/inventoryruleremotework.class.php at line 215  
