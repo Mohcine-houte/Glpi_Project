@@ -1,0 +1,70 @@
+[2025-02-11 15:18:12] glpiphplog.WARNING: Test logger  
+[2025-02-11 15:24:48] glpiphplog.WARNING:   *** PHP User Warning (512): Missing required intl PHP extension in /var/www/html/src/Session.php at line 795
+  Backtrace :
+  src/Session.php:795                                trigger_error()
+  inc/config.php:82                                  Session::loadLanguage()
+  inc/includes.php:58                                include_once()
+  front/locale.php:49                                include()
+  
+[2025-02-11 15:24:48] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/src/Session.php:795) in /var/www/html/src/Html.php at line 2087
+  Backtrace :
+  src/Html.php:2087                                  header()
+  inc/config.php:94                                  Html::nullHeader()
+  inc/includes.php:58                                include_once()
+  front/locale.php:49                                include()
+  
+[2025-02-11 15:24:48] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/src/Session.php:795) in /var/www/html/src/Html.php at line 2225
+  Backtrace :
+  src/Html.php:2225                                  header()
+  src/Html.php:2090                                  Html::header_nocache()
+  inc/config.php:94                                  Html::nullHeader()
+  inc/includes.php:58                                include_once()
+  front/locale.php:49                                include()
+  
+[2025-02-11 15:24:48] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/src/Session.php:795) in /var/www/html/src/Html.php at line 2226
+  Backtrace :
+  src/Html.php:2226                                  header()
+  src/Html.php:2090                                  Html::header_nocache()
+  inc/config.php:94                                  Html::nullHeader()
+  inc/includes.php:58                                include_once()
+  front/locale.php:49                                include()
+  
+[2025-02-11 15:24:48] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/src/Session.php:795) in /var/www/html/src/Html.php at line 1116
+  Backtrace :
+  src/Html.php:1116                                  header()
+  src/Html.php:2096                                  Html::includeHeader()
+  inc/config.php:94                                  Html::nullHeader()
+  inc/includes.php:58                                include_once()
+  front/locale.php:49                                include()
+  
+[2025-02-11 15:24:48] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/src/Session.php:795) in /var/www/html/src/Html.php at line 1120
+  Backtrace :
+  src/Html.php:1120                                  header()
+  src/Html.php:2096                                  Html::includeHeader()
+  inc/config.php:94                                  Html::nullHeader()
+  inc/includes.php:58                                include_once()
+  front/locale.php:49                                include()
+  
+[2025-02-11 15:24:48] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/src/Session.php:795) in /var/www/html/src/Html.php at line 2225
+  Backtrace :
+  src/Html.php:2225                                  header()
+  src/Html.php:1124                                  Html::header_nocache()
+  src/Html.php:2096                                  Html::includeHeader()
+  inc/config.php:94                                  Html::nullHeader()
+  inc/includes.php:58                                include_once()
+  front/locale.php:49                                include()
+  
+[2025-02-11 15:24:48] glpiphplog.WARNING:   *** PHP Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/html/src/Session.php:795) in /var/www/html/src/Html.php at line 2226
+  Backtrace :
+  src/Html.php:2226                                  header()
+  src/Html.php:1124                                  Html::header_nocache()
+  src/Html.php:2096                                  Html::includeHeader()
+  inc/config.php:94                                  Html::nullHeader()
+  inc/includes.php:58                                include_once()
+  front/locale.php:49                                include()
+  
+[2025-02-11 15:24:56] glpiphplog.WARNING: Test logger  
+[2025-02-11 15:25:48] glpiphplog.WARNING: Test logger  
+[2025-02-11 15:27:08] glpiphplog.DEBUG: Html::compileScss() in /var/www/html/src/Html.php line 6946
+Compile css/palettes/auror.scss  {"user":"@e4ef471c4a14"} 
+[2025-02-11 15:27:15] glpiphplog.WARNING: Test logger  
