@@ -1,1 +1,1 @@
-NOPE
+Hello, my name is Mohcine Houte, and I am a 26-year-old IT professional specializing in networking. With a strong technical background, I am passionate about infrastructure, system administration, and network management. I am also highly interested in DevOps, continuously expanding my knowledge in automation, cloud computing, and CI/CD practices to bridge the gap between development and operations.
