@@ -7,10 +7,6 @@ php/www/files/_log/
 # Ignore session files
 php/www/files/_sessions/
 
-# Ignore all hidden system files (Mac and Linux)
-.DS_Store
-Thumbs.db
-
 # Ignore compiled or temporary files
 *.swp
 *.bak
