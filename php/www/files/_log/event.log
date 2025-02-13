@@ -1,8 +1,0 @@
-2025-02-11 15:29:20 [@e4ef471c4a14]
-[login] 3: Connexion échouée de  depuis l'IP 172.16.103.1
-2025-02-11 15:29:32 [@e4ef471c4a14]
-[login] 3: glpi se connecte depuis l'IP 172.16.103.1
-2025-02-12 15:21:12 [2@e4ef471c4a14]
-[setup] [Plugin 8] 3: Le plugin « FusionInventory » a été installé par glpi (2).
-2025-02-12 15:21:29 [2@e4ef471c4a14]
-[setup] [Plugin 9] 3: Le plugin « FusionInventory » a été activé par glpi (2).
