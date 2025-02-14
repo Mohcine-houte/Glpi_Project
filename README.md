@@ -1,4 +1,4 @@
-echo "# GLPI - IT Asset Management in Docker
+# GLPI - IT Asset Management in Docker
 
 This repository contains a **Docker-based deployment of GLPI** (Gestionnaire Libre de Parc Informatique), an open-source IT asset management and helpdesk system.
 
@@ -18,22 +18,22 @@ GLPI is deployed in a **Docker container**, making it easy to install, configure
 ## **Installation**
 
 ### **1. Clone the Repository**
-\`\`\`bash
+```bash
 git clone https://github.com/Mohcine-houte/Glpi_Project.git
 cd Glpi_Project
-\`\`\`
+```
 
 ### **2. Start GLPI with Docker Compose**
-\`\`\`bash
+```bash
 docker-compose up -d
-\`\`\`
+```
 This will start the GLPI service along with the database.
 
 ### **3. Access GLPI**
 Once the containers are running, open your browser and go to:
-\`\`\`
+```bash
 http://localhost:8080
-\`\`\`
+```
 
 ### **4. Default Credentials**
 - **Username:** \`admin\`
@@ -47,19 +47,19 @@ http://localhost:8080
 
 ## **Stopping the Containers**
 To stop and remove the running containers:
-\`\`\`bash
+```bash
 docker-compose down
-\`\`\`
+```
 
 ## **Updating GLPI**
 1. Pull the latest version:
-   \`\`\`bash
+   ```bash
    git pull origin main
-   \`\`\`
+   ```
 2. Restart the containers:
-   \`\`\`bash
+   ```bash
    docker-compose up -d --build
-   \`\`\`
+   ```
 
 ## **Contributing**
 Feel free to submit issues or pull requests to improve this setup.
